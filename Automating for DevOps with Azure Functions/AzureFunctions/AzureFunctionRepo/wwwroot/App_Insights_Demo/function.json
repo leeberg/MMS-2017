@@ -1,0 +1,13 @@
+{
+  "bindings": [
+    {
+      "name": "myQueueItem",
+      "type": "serviceBusTrigger",
+      "direction": "in",
+      "queueName": "Orders",
+      "connection": "OrderingServiceBus",
+      "accessRights": "Listen"
+    }
+  ],
+  "disabled": false
+  }  

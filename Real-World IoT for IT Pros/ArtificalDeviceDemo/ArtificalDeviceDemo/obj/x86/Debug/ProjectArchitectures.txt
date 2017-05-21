@@ -1,0 +1,5 @@
+<<<<<<< Updated upstream
+C:\Users\lberg\MMS2017Demos\Real-World IoT for IT Pros\ArtificalDeviceDemo\ArtificalDeviceDemo\ArtificalDeviceDemo.csproj;x86
+=======
+C:\Users\lee\MMS2017Demos\Real-World IoT for IT Pros\ArtificalDeviceDemo\ArtificalDeviceDemo\ArtificalDeviceDemo.csproj;x86
+>>>>>>> Stashed changes

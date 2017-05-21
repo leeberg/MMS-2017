@@ -1,0 +1,31 @@
+﻿<Page
+    x:Class="ArtificalDeviceDemo.MainPage"
+    xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+    xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+    xmlns:local="using:ArtificalDeviceDemo"
+    xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+    xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+    mc:Ignorable="d" Width="1000" Height="400">
+
+    <Grid Loaded="Grid_Loaded">
+        <Grid.Background>
+            <ImageBrush Stretch="None" ImageSource="Assets/controlpanel.jpg" AlignmentY="Top" AlignmentX="Center"/>
+        </Grid.Background>
+
+        <Grid.RowDefinitions>
+            <RowDefinition Height="150" />
+            <RowDefinition Height="30*" />
+            <RowDefinition Height="30*" />
+            <RowDefinition Height="50*" />
+        </Grid.RowDefinitions>
+        <Grid.ColumnDefinitions>
+            <ColumnDefinition Width="50*" />
+            <ColumnDefinition Width="50*" />
+        </Grid.ColumnDefinitions>
+        <TextBlock Name="Text_FirstRow" Text=":::" Grid.Column="1" HorizontalAlignment="Left" Margin="10,10,0,0" Grid.Row="1" TextWrapping="Wrap" VerticalAlignment="Top" FontFamily="Consolas" FontWeight="Bold" FocusVisualPrimaryBrush="#FF0051FF" Height="48" Width="355" Foreground="#FF002EFF" FontSize="38"/>
+        <TextBlock Name="Text_SecondRow" Text=":::" Grid.Column="1" HorizontalAlignment="Left" Margin="10,10,0,0" Grid.Row="2" TextWrapping="Wrap" VerticalAlignment="Top" FontFamily="Consolas" FontWeight="Bold" FocusVisualPrimaryBrush="#FF0051FF" Height="48" Width="355" Foreground="#FF002EFF" FontSize="38"/>
+        <Button Content="Button" HorizontalAlignment="Left" Margin="278,10,0,0" Grid.Row="1" VerticalAlignment="Top" Height="48" Click="Button_Click"/>
+        <Image Name="ImgBlinker" Source="Assets/redlightblinkOFF.png"  HorizontalAlignment="Left" Height="100" Margin="48,10,0,0" VerticalAlignment="Top" Width="100"/>
+
+    </Grid>
+</Page>

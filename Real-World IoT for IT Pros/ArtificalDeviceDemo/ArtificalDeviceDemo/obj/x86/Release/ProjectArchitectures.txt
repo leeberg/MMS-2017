@@ -1,0 +1,1 @@
+C:\Users\lee\MMS2017Demos\Real-World IoT for IT Pros\ArtificalDeviceDemo\ArtificalDeviceDemo\ArtificalDeviceDemo.csproj;x86
